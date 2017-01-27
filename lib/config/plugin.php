@@ -1,7 +1,8 @@
 <?php
 return array (
-  'name' => 'Guesshowmanyordersdoihave',
-  'icon' => 'img/guesshowmanyordersdoihave.gif',
+  'name' => 'Угадай, сколько у меня заказов?',
+  'description' => 'Добавляет случайные значения к номеру заказа.',
+  'img' => 'img/icon.png',
   'version' => '1.0.0',
   'vendor' => '972539',
   'handlers' => 
