@@ -37,4 +37,12 @@ class shopGuesshowmanyordersdoihavePlugin extends shopPlugin
         }
         return $r;
     }
+
+    public static function getDescriptionControl($name, $params)
+    {
+        $view = wa()->getView();
+        $view->assign('path', wa()->getConfig()->getRootPath());
+        $plugin = wa('shop')->getPlugin('guesshowmanyordersdoihave');
+        return $view->fetch($plugin->path.'/templates/control.html');
+    }
 }
