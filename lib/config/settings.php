@@ -1,7 +1,5 @@
 <?php
 
-$path = realpath(dirname(__FILE__).'/../../../../../../');
-
 return array(
     'enabled'  => array(
         'value'        => 0,
